@@ -1,0 +1,5 @@
+---
+switch:
+  platform: ios
+  data:
+    location: Sydney

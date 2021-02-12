@@ -1,0 +1,17 @@
+---
+username: vagrant
+password: vagrant
+connection_options:
+  netmiko:
+    platform: cisco_ios
+    extras:
+      # session_log: ./netmiko_log.txt
+  napalm:
+    extras:
+      optional_args:
+        # session_log: ./napalm_log.log
+        global_delay_factor: 3
+        max_loops: 1000
+data:
+  dhcp:
+    servers: ['1.1.1.1', '2.2.2.2']

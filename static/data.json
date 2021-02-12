@@ -1,0 +1,18 @@
+{
+    "label": "Lab",
+    "links": [
+        {
+            "source": "csr01",
+            "target": "csr02"
+        }
+    ],
+    "nodes": [
+        {
+            "id": "csr01"
+        },
+        {
+            "id": "csr02"
+        }
+    ],
+    "type": "NetworkGraph"
+}
